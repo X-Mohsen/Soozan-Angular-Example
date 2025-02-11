@@ -1,7 +1,9 @@
 <nav class="flex justify-between items-center px-10 py-5">
   <!-- Title -->
   <div class="flex flex-1 justify-start">
-    <h1 class="text-4xl font-bold flex-1 hidden sm:block">داشبورد</h1>
+    <h1 class="text-4xl font-bold flex-1 hidden sm:block">
+      {{ title$ | async }}
+    </h1>
   </div>
 
   <!-- Logo -->
