@@ -1,3 +1,4 @@
+export * from './artists-page/artists-page.component';
 export * from './dashboard-page/dashboard-page.component';
 export * from './messages-page/messages-page.component';
 export * from './orders-page/orders-page.component';
