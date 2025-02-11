@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { PanelLayoutComponent } from './layouts';
 import {
   DashboardPageComponent,
+  MessagesPageComponent,
   OrdersPageComponent,
   ProfilePageComponent,
 } from './pages';
@@ -29,6 +30,10 @@ export const routes: Routes = [
       {
         path: 'profile',
         component: ProfilePageComponent,
+      },
+      {
+        path: 'messages',
+        component: MessagesPageComponent,
       },
     ],
   },
