@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { PanelLayoutComponent } from './layouts';
 import {
+  ArtistsPageComponent,
   DashboardPageComponent,
   MessagesPageComponent,
   OrdersPageComponent,
@@ -44,6 +45,10 @@ export const routes: Routes = [
       {
         path: 'works',
         component: WorksPageComponent,
+      },
+      {
+        path: 'artists',
+        component: ArtistsPageComponent,
       },
     ],
   },
