@@ -1,9 +1,19 @@
-<nav class="flex justify-between items-center p-4 pt-8">
-  <h1 class="text-4xl font-bold">داشبورد</h1>
+<nav class="flex justify-between items-center px-7 py-5">
+  <div class="flex flex-1 justify-start">
+    <h1 class="text-4xl font-bold flex-1 hidden sm:block">داشبورد</h1>
+  </div>
 
-  <div class="flex gap-2">
+  <div class="flex flex-1 justify-center">
+    <img
+      class="h-10 sm:hidden"
+      src="/images/soozan-logo.png"
+      alt="Soozan Logo"
+    />
+  </div>
+
+  <div class="flex flex-1 gap-2 justify-end">
     <button
-      class="w-6 h-6 rounded-full flex items-center justify-center cursor-pointer"
+      class="w-6 h-6 rounded-full items-center justify-center cursor-pointer hidden sm:flex"
     >
       <img
         class="rounded-full w-5 h-5"
@@ -21,5 +31,7 @@
         alt="Profile Avatar Placeholder"
       />
     </button>
+
+    <span class="sm:hidden">سارا فرخی</span>
   </div>
 </nav>
