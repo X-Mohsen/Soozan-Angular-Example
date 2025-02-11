@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { NavbarComponent } from '../../shared';
 
 @Component({
   selector: 'app-panel-layout',
-  imports: [],
+  imports: [NavbarComponent],
   templateUrl: './panel-layout.component.html',
-  styleUrl: './panel-layout.component.scss'
+  styleUrl: './panel-layout.component.scss',
 })
-export class PanelLayoutComponent {
-
-}
+export class PanelLayoutComponent {}
