@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './orders-page.component.html',
   styleUrl: './orders-page.component.scss',
+  host: { class: 'block h-full' },
 })
 export class OrdersPageComponent {}
