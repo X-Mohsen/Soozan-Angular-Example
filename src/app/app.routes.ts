@@ -6,6 +6,7 @@ import {
   OrdersPageComponent,
   ProfilePageComponent,
   SupportPageComponent,
+  WorksPageComponent,
 } from './pages';
 
 export const routes: Routes = [
@@ -39,6 +40,10 @@ export const routes: Routes = [
       {
         path: 'support',
         component: SupportPageComponent,
+      },
+      {
+        path: 'works',
+        component: WorksPageComponent,
       },
     ],
   },
