@@ -11,6 +11,12 @@ import { NavbarService } from '../../core/navbar.service';
   styleUrl: './panel-sidebar.component.scss',
 })
 export class PanelSidebarComponent {
+  isOpen = false;
+
+  toggleAccordion() {
+    this.isOpen = !this.isOpen;
+  }
+
   setPageTitle(title: string): void {
     this._navbar.setTitle(title);
   }
