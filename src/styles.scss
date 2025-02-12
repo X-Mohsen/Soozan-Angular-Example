@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @use "tailwindcss";
+@use "./styles/fonts.scss";
 
 body {
   margin: 0;
@@ -10,4 +11,6 @@ body {
 
   background-color: var(--color-neutral-800);
   color: white;
+  font-family: Estedad;
+  --font-family: Estedad;
 }
