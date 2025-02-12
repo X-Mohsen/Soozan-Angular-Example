@@ -194,3 +194,71 @@
     </nav>
   </div>
 </div>
+
+<!-- Bottom Navigation -->
+
+<div class="fixed bottom-0 left-0 z-50 w-full h-16 bg-neutral-900 sm:hidden">
+  <div class="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
+    <a
+      class="group inline-flex flex-col items-center justify-center px-5"
+      routerLink="/dashboard"
+      routerLinkActive="active"
+      (click)="setPageTitle('داشبورد')"
+    >
+      <img
+        class="group-[.active]:hidden w-5 h-5 mb-2 brightness-[10]"
+        src="/icons/icon-dashboard.png"
+      />
+      <img
+        class="hidden group-[.active]:block w-5 h-5 mb-2"
+        src="/icons/icon-dashboard-red.png"
+      />
+    </a>
+
+    <a
+      class="group inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 hover:bg-gray-800 group"
+      routerLink="/works"
+      routerLinkActive="active"
+      (click)="setPageTitle('آثار')"
+    >
+      <img
+        class="group-[.active]:hidden w-5 h-5 mb-2 brightness-[10]"
+        src="/icons/icon-discovery.png"
+      />
+      <img
+        class="hidden group-[.active]:block w-5 h-5 mb-2"
+        src="/icons/icon-discovery-red.png"
+      />
+    </a>
+    <a
+      class="group inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 hover:bg-gray-800 group"
+      routerLink="orders"
+      routerLinkActive="active"
+      (click)="setPageTitle('سفارش')"
+    >
+      <img
+        class="group-[.active]:hidden w-5 h-5 mb-2 brightness-[10]"
+        src="/icons/icon-orders.png"
+      />
+      <img
+        class="hidden group-[.active]:block w-5 h-5 mb-2"
+        src="/icons/icon-orders-red.png"
+      />
+    </a>
+    <a
+      class="group inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 hover:bg-gray-800 group"
+      routerLink="/profile"
+      routerLinkActive="active"
+      (click)="setPageTitle('پروفایل')"
+    >
+      <img
+        class="group-[.active]:hidden w-5 h-5 mb-2 brightness-[10]"
+        src="/icons/icon-profile.png"
+      />
+      <img
+        class="hidden group-[.active]:block w-5 h-5 mb-2"
+        src="/icons/icon-profile-red.png"
+      />
+    </a>
+  </div>
+</div>
