@@ -2,6 +2,11 @@
 @use "tailwindcss";
 @use "./styles/fonts.scss";
 
+@theme {
+  --color-red-700: #c3373d;
+  --color-red-800: #a62f34;
+}
+
 body {
   margin: 0;
   padding: 0;
